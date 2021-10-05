@@ -7,6 +7,7 @@
 </template>
 
 <script>
+// modelValue and update:modelValue are special prop and methods to use v-model on a component 
 export default {
     props:['modelValue'],
     emits:['update:modelValue'],
